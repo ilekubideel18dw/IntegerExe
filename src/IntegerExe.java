@@ -19,17 +19,22 @@ public class IntegerExe {
 		String sgt = "sun.arch.data.model";
 		System.out.println("Value = " + Integer.getInteger(sgt));
 		
-		// intValue() returns the value of this Integer as an int.
+		// intValue() returns the value of a Integer as an int.
 		int iv = num1.intValue();
 	    System.out.println("Value = " + iv);
 	    
-	    // parseInt().
+	    // parseInt() method parses the string argument s as a signed decimal integer.
+	    String pst = "123";
+	    int pnum1 = 100;
+	    int pnum2 = Integer.parseInt(pst);
+	    int psum = pnum1+pnum2;
+	    System.out.println("Value = " +psum);
 	    
-	    // shortValue() returns the value of this Integer as an short.
+	    // shortValue() returns the value of a Integer as an short.
 	    short sv = num1.shortValue();
 	    System.out.println("Value = " + sv);
 	    
-	    // toString().
+	    // toString() method returns a String object representing a Integer's value.
 	 	String tst = num2.toString(30, 10);
 	    System.out.println("Value = " + tst);
 	 
